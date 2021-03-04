@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>CMC YOLO DASHBOARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        td {
+            padding: 8px;
+
+        }
+
+        td:nth-child(2n) {
+            text-align: center;
+        }
+
+        small {
+            position: absolute;
+            bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>OPTIONS</h1>
+        <table>
+            %(content)s
+        </table>
+        <small>Last update: %(update_time)s</small>
+    </center>
+</body>
+
+</html>
